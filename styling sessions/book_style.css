@@ -1,0 +1,63 @@
+nav{ 
+    background-color: #909296;
+    height: 43px;
+    margin-top: 13px;
+}
+a{
+    color: black;
+    align-items: center;
+    text-decoration: none;
+ padding-left: 30px;
+     }
+a:hover{
+    color: red;
+    background-color: cadetblue;
+    }
+.head{
+    padding-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    }
+td{
+    padding: 13px;
+}
+.col{
+     border-right: 1px solid black;
+}
+.heading{
+    text-align: center;
+}
+.row{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+table{
+    columns: 3;
+    column-rule: 2px solid black;
+    row-gap: 10%;
+    column-gap: 10%;
+}
+
+.page1,.page2,.page3{
+   flex:1;
+   text-align: justify;  
+   padding: 8px;
+   border: 1px solid black;
+   margin: 5px;
+}
+.book1,.book2,.book3{    
+   height: 239px;
+   width: 100%;
+}
+
+  

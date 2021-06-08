@@ -1,0 +1,38 @@
+body{
+    background-color: #000000;
+}
+.main-header {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.state{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: tomato;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+.tvm{
+    border: 1px solid white;
+    background-color: turquoise;
+}
+.ekm{
+    border: 1px solid white;
+    background-color: yellowgreen;
+}
+.clt {
+    background-color: violet;
+}
+.thr{
+    background-color: teal;
+}
+.knr {
+    background-color: salmon;
+}
+

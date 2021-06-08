@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');body{
+    background-color: black;
+}
+
+.header{
+    font-family: 'Carter One', cursive;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.parent{
+    width: 658px;
+    height: 165px;
+    background-color: black;
+    position: relative;
+    margin-left: 324px;
+    margin-top: 10px;   
+}
+.child1,.child2,.child3,.child4,.child5,.box1,.box2,.box3,.box4,.box5,.box6,.box7,
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9{
+    height: 165px;
+    width: 114px;
+    position: absolute;
+}
+.child1,.box1,.col1{
+        left: 0;
+ }
+.child1{
+    background-color: #343742;
+ }
+.child2,.box2,.col2{
+        left: 136px;
+}
+.child2{
+    background-color: #384234;
+ }
+.child3,.box3,.col3{
+    left: 274px;
+       }
+.child3{
+    background-color:#42732e ;
+    }
+.child4,.box4,.col4{
+    left: 410px;
+}
+.child4{
+    background-color:#60c934 ;    
+}
+.child5,.box5,.col5{
+    left: 543px;
+}
+.child5{
+    background-color:#b5c4a3 ;     
+}
+.box{
+    width: 930px;
+    height: 165px;
+    background-color: black;
+    position: relative;
+    margin-left: 187px;
+    margin-top: 20px;    
+}
+.box1{
+    background-color: #fa7500;
+    }
+.box2{
+    background-color: #bf3434;
+    }
+.box3{
+    background-color:#8c3c6c ;
+   }
+.box4{
+    background-color: #ab6790;
+   }
+.box5{
+    background-color:#49205e ;
+   }
+.box6{
+        background-color:#a456cc ;
+        left: 681px;
+ }
+.box7{
+        background-color:#534c57 ;
+        left: 816px;
+    }
+.row{
+        width: 1200px;
+        height: 165px;
+        background-color: black;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 20px;            
+        }
+.col1{
+            background-color: #5e93bf;                 
+        }
+.col2{
+            background-color: #d9c484;
+       }
+.col3{
+            background-color: #e38a5b ;            
+        }
+.col4{
+            background-color:  #a62655;
+        }
+.col5{
+            background-color:#402834;
+        }
+.col6{
+            background-color:#3da8ad ;
+            left: 681px;
+   }
+.col7{
+            background-color:#5692a6 ;
+            left: 816px;
+        }
+.col8{
+            background-color:#8283a8 ;
+            left: 953px;
+        }
+.col9{
+            background-color:#25183b ;
+            left: 1090px;
+        }

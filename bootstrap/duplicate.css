@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #f5f5f5;
+}
+.first{
+    background-color: #5e068a;
+    height: 35px;
+    font-size: 14px;
+   position: relative;      
+}
+
+.first a{
+    color: white;
+    text-decoration: none;    
+}
+
+
+.col1{
+    
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 7px;
+}
+.col2{
+  
+    position: absolute;
+    margin-left: 952px;
+    margin-top: 7px;
+}
+
+.navbrsecond{
+    background-color: white;
+}
+
+.second{
+    background-color: white;
+    height: 80px;
+    border:1px solid white;
+    position:relative; 
+}
+
+.second img{
+    margin-left: 66px;
+}
+
+.col4{
+    position: absolute;
+    margin-left: 642px;
+    margin-top: 12px;     
+}
+
+
+.col4 a{
+    color: black;
+}
+
+
+
+.item1 img{
+    height: 450px;
+    width: 100%;
+}
+
+.item2 img{
+    height: 450px;
+    width: 100%;
+}
+
+
+
+
+.row3{
+    float: left;     
+    background-color: white;    
+position: relative;   
+} 
+
+.row3 h1{
+    position: absolute;
+    color: #5e068a;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.textcontents {
+    position: absolute;   
+padding-right: 700px;
+padding-left: 80px;
+padding-top: 130px;
+}
+.buttn{
+    background-color:#5e068a ;
+      margin-top: 380px;
+      margin-left: 80px;
+}
+
+.col6{
+    position: absolute;
+    padding-left: 790px;
+}
+
+.col6 img{    
+    width: 430px;
+height: 450px;   
+
+}
+.rowa{
+    padding-top: 40px;
+   justify-content: right;
+}
+.heading h2{
+    margin-top: 30px;
+    color: #5e068a ;
+    padding-left: 570px;
+}
+
+.textside{
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 25px;
+}
+.cola{
+    padding-left: 150px;
+}
+.colb{
+    margin-right: 120px;
+}
+
+
+.row4{  
+    margin-top: 470px;
+    position: relative;      
+    padding-left: 140px;
+   
+}
+
+.row4 h2{ 
+    
+    margin-top: 30px;
+    margin-bottom: 30px;     
+    padding-left: 390px;
+    color: #5e068a;
+    }
+
+
+
+
+
+
+.cardtitle1{
+    color: #5e068a;
+}
+
+.cardtext1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cardtext2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    color:#45403f;    
+}
+
+.view{
+    color:#5e068a;
+}
+
+
+
+
+
+.row5{
+   margin-top: 540px;   
+   justify-content: space-evenly;
+   
+}
+
+.allcards{
+    height:450px ;    
+    }
+
+.cardtext3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button1 {
+    background-color: #5e068a;
+}
+
+
+
+.coursebuttn{
+    margin-top: 25px;
+    margin-left: 615px;
+    color:#5e068a ;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #5e068a;
+}
+
+.modalbutton{
+    background-color: #5e068a;
+    margin-left: 1108px;
+    margin-top: 45px;      
+}

@@ -1,0 +1,37 @@
+body{
+    height: 1000px;
+}
+.row{ 
+
+    width: 331px;
+    height: 125px;
+    background-color:cyan;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10px;
+}
+.col-1,.col-2,.col-3{
+    width: 100px;
+    height: 100px;
+}
+.col-1{
+    background-color: darkblue;
+}
+.col-2{
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+}
+.col-3{
+    background-color: darkgreen;
+    position: absolute;
+    top: 0;
+    left: 231px;
+}
+.feedback{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    position: fixed;
+}
