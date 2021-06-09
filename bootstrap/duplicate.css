@@ -69,9 +69,7 @@
     font-size: x-large;
 }
 
-.carouseltext{
-  
-}
+
 
 .buttn{
     background-color:#5e068a ;
@@ -90,8 +88,9 @@
 
 
 .row3{
-    float: left;     
+  
     background-color: white;
+    display: flex;
    
 } 
 .row3 h2{ 
@@ -110,14 +109,21 @@ padding-top: 80px;
 
 .col6 img{
     width:450px;
+   
+}
+
+@mediaquery(max-width:1000px){
+    .row3{
+        align-items: center;
+        flex-direction: column;
+    } 
+
 }
 
 
 
-
-
 .row4{  
-    margin-top: 600px;
+    
 
     position: relative;      
     background-color: #f5f5f5;
