@@ -8,7 +8,7 @@
     background-color: #5e068a;
     height: 35px;
     font-size: 14px;
-   position: relative;      
+       
 }
 
 .first a{
@@ -33,10 +33,11 @@
 
 
 .second{
+    margin-top: -10px;
     background-color: white;
     height: 80px;
-    border:1px solid white;
-    position:relative; 
+    border-color:  white;
+  
 }
 
 .second img{
@@ -67,6 +68,11 @@
 }
 .item p{
     font-size: x-large;
+}
+@mediaquery(max-width:700px){
+    .item p{
+        font-size: x-small;
+    }
 }
 
 
@@ -114,10 +120,11 @@ padding-top: 80px;
 
 @mediaquery(max-width:1000px){
     .row3{
+        width:350px;
         align-items: center;
         flex-direction: column;
     } 
-
+    
 }
 
 
