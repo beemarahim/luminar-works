@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
+body{
+    background-color: #f5f5f5;
+}
 .first{
     background-color: #5e068a;
     height: 35px;
@@ -142,18 +144,35 @@ padding-top: 80px;
   text-align: center;
     color: #5e068a;
     }
-
-.card1{
-    position: absolute; 
-    padding-top: 30px;
-    margin-left: 10%;   
-    margin-right: 40%; 
-
+@mediaquery(max-width:700px){
+    .row4 .header1{
+       display:flex;
+        text-align:center;
+    }
 }
 
-.cardtitle1{
+    .row5{
+        display:flex;
+        flex-direction: row;
+        float: left;
+    }
+    .body_col{
+    border:1px solid transparent;
+    padding-right: 72px;
+    padding-left: 20px;
+    background-color: white;
+    padding-top: 15px;
+    height: 290px;
+    margin-right: 110px;
+    width: 533px;
+    }
+    .col-6 img{
+    
+        margin-left: 90px;
+    }
+    .cardtitle1{
     color: #5e068a;
-}
+   }
 
 .cardtext1{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -176,14 +195,35 @@ padding-top: 80px;
 
 
 
-.row5{
-   margin-top: 540px;
-   margin-left: 40px;
-   
+
+.row6{
+   margin-top: 30px;
+margin-left: 85px;
+   column-gap: 1px;
+   display: flex;
+   float: left;
+     
+   }
+
+@mediaquery(max-width:500px){
+    .row6{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+    .row5{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
 }
 
+
+
 .allcards{
-    height:450px ;
+    height:400px ;
     
     }
     .button1 {
