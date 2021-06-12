@@ -73,6 +73,10 @@ else if (num3 > num1 & num3 > num2) {
     }
 }
 
+
+
+
+
 var age =25;
 var health_issues =false;
 if (age>65) {
