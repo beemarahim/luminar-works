@@ -10,6 +10,8 @@ body{
     background-color: #5e068a;
     height: 35px;
     font-size: 14px;
+    display: flex;
+
        
 }
 
@@ -17,19 +19,27 @@ body{
     color: white;
     text-decoration: none;    
 }
-
+@mediaquery(max-width:700){
+    .first{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+}
 
 .col1{
     
     position: absolute;
     margin-left: 80px;
     margin-top: 7px;
+    align-items: flex-start;
 }
 .col2{
   
     position: absolute;
     margin-left: 952px;
     margin-top: 7px;
+    align-items: flex-end;
 }
 
 
