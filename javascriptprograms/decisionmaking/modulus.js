@@ -12,8 +12,8 @@
 var num=9;
  var res="";
  if(num%3==0){
-    res+="fiz"
+    res+="fiz";
 }
-if(num%5==0){
-    res+="buz"
+else if(num%5==0){
+    res+="buz";
 }
