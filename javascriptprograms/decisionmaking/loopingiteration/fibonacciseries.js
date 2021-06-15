@@ -3,8 +3,9 @@
 var num1=0;
 var num2=1;
 var num =0;
-console.log(num1);                             
-console.log(num2);                       
+console.log(num1);   
+console.log(num2);                          
+                      
                                        
 while (num<21) {    
     num=num1+num2;
