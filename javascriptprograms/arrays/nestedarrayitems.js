@@ -40,3 +40,31 @@ for(let pdt of products){
     console.log(pdt);
     break;}
 }
+
+
+// print costly product
+
+var list = [];
+for (let pdt of products){
+     list.push(pdt[2])
+}
+
+
+list.sort((num1,num2)=>num1-num2)
+var high_price=list[6];
+for(let pdt of products){
+    if(pdt[2]==high_price){
+        console.log(`costly product is ${pdt[1]}`);
+        break;
+    }
+}
+
+// print low cost product 
+list.sort((num1,num2)=>num1-num2)
+var low_price=list[0];
+for(let pdt of products){
+    if(pdt[2]==low_price){
+        console.log(`low cost product is ${pdt[1]}`);
+        break;
+    }
+}

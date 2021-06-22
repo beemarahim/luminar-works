@@ -320,6 +320,7 @@ margin-left: 85px;
    
     background-color: #1d0429;
     color: white;
+    padding: 30px;
     
 }
 .footer-div{
@@ -336,7 +337,7 @@ margin-left: 85px;
     color: white;
 }
 .footer-div-col{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .footer-div-content{
     padding-top: 35px;

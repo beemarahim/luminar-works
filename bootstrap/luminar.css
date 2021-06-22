@@ -328,6 +328,7 @@ margin-left: 85px;
 .footer-div-row{
     float: left;
     justify-content: space-around;
+    padding:25px;
     
    
 }
