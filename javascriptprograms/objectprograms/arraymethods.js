@@ -34,6 +34,10 @@
 //array method map
 
 var arr=[3,4,2,8,7,9]
+//forEach()
+arr.forEach(num=>console.log(num));
+
+
 
 
 // var squares=arr.map(num=>num**2)
@@ -45,6 +49,6 @@ var arr=[3,4,2,8,7,9]
 
 //find odd numbers from array
 
-var evens=arr.filter(num=>num%2==0)
-console.log(evens);
+// var evens=arr.filter(num=>num%2==0)
+// console.log(evens);
 
